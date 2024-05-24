@@ -40,7 +40,7 @@ const ProductDetails = (props) => {
           <h3 className="text-muted">${product.price}</h3>
           <p>{product.description}</p>
           <button
-            className="btn btn-primary btn-pulse"
+            className="btn btn-primary btn-pulse mb-4"
             style={{
               marginTop: '10px',
               alignSelf: 'flex-start',
