@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 767px) {
   .custom-alert {
-    position: relative !important;
+    position: fixed !important;
     margin: auto;
     text-align: center;
     width: 80%;
