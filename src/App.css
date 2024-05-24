@@ -18,6 +18,21 @@
   margin-top: 22px;
   display: inline;
 }
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.btn-pulse {
+  animation: pulse 2s infinite; 
+}
 
 @media screen and (max-width: 767px) {
   .custom-alert {
