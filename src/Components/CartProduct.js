@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import RemoveImage from '../assets/remove.png'
+import shopImage from '../assets/shop.png'
 const CartProduct = ({ cartItems,onRemoveFromCart}) => {
     return (
         <div className="container mt-5">
@@ -9,7 +10,7 @@ const CartProduct = ({ cartItems,onRemoveFromCart}) => {
                 <div className='mx-auto text-center'>
                     <p>No items in the cart</p>
                     <Link to="/" className="btn btn-primary">
-                        Go Shopping
+                        Go Shopping<br></br><img src={shopImage }style={{   width: '30px', height: '30px' }} />
                     </Link>
                 </div>
             ) : (
