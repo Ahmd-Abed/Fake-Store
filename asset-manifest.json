@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Fake-Store/static/css/main.f7daecf2.css",
-    "main.js": "/Fake-Store/static/js/main.c709a799.js",
+    "main.css": "/Fake-Store/static/css/main.a128d786.css",
+    "main.js": "/Fake-Store/static/js/main.44a06b43.js",
     "static/media/check.png": "/Fake-Store/static/media/check.3681c0e66d788244dcff.png",
     "static/media/remove.png": "/Fake-Store/static/media/remove.3c662b752278fc52f408.png",
     "static/media/plus.png": "/Fake-Store/static/media/plus.b3120687d3118e5ed136.png",
     "static/media/shop.png": "/Fake-Store/static/media/shop.8b3dad24c908f7f8b43b.png",
     "static/media/spinner.gif": "/Fake-Store/static/media/spinner.c36db36f2519e9e0add4.gif",
     "index.html": "/Fake-Store/index.html",
-    "main.f7daecf2.css.map": "/Fake-Store/static/css/main.f7daecf2.css.map",
-    "main.c709a799.js.map": "/Fake-Store/static/js/main.c709a799.js.map"
+    "main.a128d786.css.map": "/Fake-Store/static/css/main.a128d786.css.map",
+    "main.44a06b43.js.map": "/Fake-Store/static/js/main.44a06b43.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7daecf2.css",
-    "static/js/main.c709a799.js"
+    "static/css/main.a128d786.css",
+    "static/js/main.44a06b43.js"
   ]
 }
