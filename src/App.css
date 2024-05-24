@@ -33,6 +33,11 @@
 .btn-pulse {
   animation: pulse 2s infinite; 
 }
+.card-icon-pulse {
+  background-color: rgb(111, 146, 199) !important;
+  border-radius: 4px;
+  animation: pulse 0.8s ease-in-out;
+}
 
 @media screen and (max-width: 767px) {
   .custom-alert {

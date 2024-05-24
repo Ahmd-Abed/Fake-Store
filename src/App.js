@@ -11,22 +11,40 @@ function App() {
   const [cart, setCart] = useState([]); 
 
   const [alertMessage, setAlertMessage] = useState("");
-  const [showAlert, setShowAlert] = useState(false)
+  const [showAlert, setShowAlert] = useState(false);
+
+  const [iconAnimation, setIconAnimation] = useState(false);
 
   const handleAddToCart = (product) => {
     setCart([...cart, product]);
+
     const titleWords = product.title.split(' ');
     const shortTitle = titleWords.slice(0, 3).join(' ');
     setAlertMessage(`${shortTitle} added to cart`);
+
     setShowAlert(true);
+    setIconAnimation(true);
+
+    setTimeout(() => {
+      setIconAnimation(false);
+    }, 1500);
+
     setTimeout(() => {
       setShowAlert(false);
     }, 4000);
+
   };
   const handleRemoveFromCart = (productId) => {
     setCart(cart.filter(item => item.id !== productId));
     setAlertMessage(`Product removed from cart`);
+    
     setShowAlert(true);
+    setIconAnimation(true);
+
+    setTimeout(() => {
+      setIconAnimation(false);
+    }, 1500);
+
     setTimeout(() => {
       setShowAlert(false);
     }, 4000);
@@ -39,7 +57,7 @@ function App() {
     <div className="App">
 
         <div className="navbar-fixed">
-          <NavBar cartCount={cart.length} cartItems={cart} />
+          <NavBar cartCount={cart.length} cartItems={cart} animationAction={iconAnimation} />
         </div>
         <CustomAlert message={alertMessage} show={showAlert} onClose={handleCloseAlert} />
         <Routes>
