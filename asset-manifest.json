@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Fake/Store/static/css/main.d21a5b65.css",
-    "main.js": "/Fake/Store/static/js/main.d8b1dcbf.js",
-    "static/media/check.png": "/Fake/Store/static/media/check.3681c0e66d788244dcff.png",
-    "static/media/remove.png": "/Fake/Store/static/media/remove.3c662b752278fc52f408.png",
-    "static/media/plus.png": "/Fake/Store/static/media/plus.b3120687d3118e5ed136.png",
-    "static/media/spinner.gif": "/Fake/Store/static/media/spinner.c36db36f2519e9e0add4.gif",
-    "index.html": "/Fake/Store/index.html",
-    "main.d21a5b65.css.map": "/Fake/Store/static/css/main.d21a5b65.css.map",
-    "main.d8b1dcbf.js.map": "/Fake/Store/static/js/main.d8b1dcbf.js.map"
+    "main.css": "/Fake-Store/static/css/main.d21a5b65.css",
+    "main.js": "/Fake-Store/static/js/main.88b1ccdd.js",
+    "static/media/check.png": "/Fake-Store/static/media/check.3681c0e66d788244dcff.png",
+    "static/media/remove.png": "/Fake-Store/static/media/remove.3c662b752278fc52f408.png",
+    "static/media/plus.png": "/Fake-Store/static/media/plus.b3120687d3118e5ed136.png",
+    "static/media/spinner.gif": "/Fake-Store/static/media/spinner.c36db36f2519e9e0add4.gif",
+    "index.html": "/Fake-Store/index.html",
+    "main.d21a5b65.css.map": "/Fake-Store/static/css/main.d21a5b65.css.map",
+    "main.88b1ccdd.js.map": "/Fake-Store/static/js/main.88b1ccdd.js.map"
   },
   "entrypoints": [
     "static/css/main.d21a5b65.css",
-    "static/js/main.d8b1dcbf.js"
+    "static/js/main.88b1ccdd.js"
   ]
 }
