@@ -32,8 +32,8 @@ const NavBar = ({cartCount}) => {
                                 paddingInline: '4px',
                                 fontSize: '16px',
                                 position: 'absolute',
-                                right: '58px',
-                                bottom: '24px'
+                                right: '72px',
+                                bottom: '33px'
                             }}>{cartCount}</span> </Link>
                         </li>
                     </ul>
