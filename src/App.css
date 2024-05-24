@@ -1,5 +1,5 @@
 .custom-alert{
-  position: absolute;
+  position: fixed;
   z-index: 1;
   display: flex;
   background-color: #000;

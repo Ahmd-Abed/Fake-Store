@@ -27,7 +27,7 @@ const ProductCard = (props) => {
       </a>
       <img src={data.image} className="card-img-top" alt={data.title} style={{ objectFit: 'contain', height: '200px' }} />
       <div className="card-body d-flex flex-column">
-        <h5 className="card-title">{data.title}</h5>
+        <h5 className="card-title" style={{ overflow: 'hidden', display: '-webkit-box', WebkitLineClamp: '1', WebkitBoxOrient: 'vertical' }}>{data.title}</h5>
         <h6 className="card-subtitle mb-2 text-muted">${data.price}</h6>
         <p className="card-text" style={{ overflow: 'hidden', display: '-webkit-box', WebkitLineClamp: '3', WebkitBoxOrient: 'vertical' }}>
           {data.description}

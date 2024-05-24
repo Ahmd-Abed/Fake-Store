@@ -21,7 +21,7 @@ function App() {
     setShowAlert(true);
     setTimeout(() => {
       setShowAlert(false);
-    }, 3000);
+    }, 4000);
   };
   const handleRemoveFromCart = (productId) => {
     setCart(cart.filter(item => item.id !== productId));
@@ -29,7 +29,7 @@ function App() {
     setShowAlert(true);
     setTimeout(() => {
       setShowAlert(false);
-    }, 3000);
+    }, 4000);
   }
 
   const handleCloseAlert = () => {
